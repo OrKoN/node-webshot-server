@@ -1,0 +1,16 @@
+{
+  "name": "node-webshot-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ajv": "^4.0.6",
+    "webshot": "^0.18.0"
+  }
+}
