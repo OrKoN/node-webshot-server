@@ -10,11 +10,19 @@ npm install node-webshot-server -g
 
 ## Installation via Docker
 
-TODO
+[https://hub.docker.com/r/orkon/node-webshot-server/](https://hub.docker.com/r/orkon/node-webshot-server/)
 
 ## Usage
 
-TODO
+```sh
+webshot-server
+```
+
+## Rebuilding the Docker image
+
+```sh
+docker build -t node-webshot-server .
+```
 
 ## LICENSE
 
