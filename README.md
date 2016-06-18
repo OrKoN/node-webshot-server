@@ -5,7 +5,7 @@ A simple server module that wraps [node-webshot](https://github.com/brenden/node
 ## Installation
 
 ```
-npm install node-webshot-server -g
+npm install webshot-server -g
 ```
 
 ## Installation via Docker
