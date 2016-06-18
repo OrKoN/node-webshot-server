@@ -1,19 +1,32 @@
 {
-  "name": "node-webshot-server",
+  "name": "webshot-server",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "PORT=4556 mocha ./test/core.js ./test/options/*"
   },
   "bin": {
     "webshot-server": "./index.js"
   },
-  "keywords": ["node-webshot", "screenshot"],
+  "keywords": [
+    "node-webshot",
+    "screenshot"
+  ],
   "author": "Oleksii Rudenko <alexei.rudenko@gmail.com>",
   "license": "MIT",
   "description": "A simple http server for node-webshot",
   "dependencies": {
     "ajv": "^4.0.6",
-    "webshot": "^0.18.0"
+    "lodash": "^4.13.1",
+    "webshot": "^0.18.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "imagemagick": "^0.1.3",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "node-static": "^0.7.7",
+    "request": "^2.72.0",
+    "should": "^9.0.2"
   }
 }

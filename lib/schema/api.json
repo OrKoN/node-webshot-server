@@ -16,18 +16,15 @@
       }
     },
     "shotSize": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "width": {
-            "type": "string",
-            "default": "window"
-          },
-          "height": {
-            "type": "string",
-            "default": "window"
-          }
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": ["integer", "string"],
+          "default": 1024
+        },
+        "height": {
+          "type": ["integer", "string"],
+          "default": 768
         }
       }
     },
@@ -66,7 +63,7 @@
       "items": {}
     },
     "customHeaders": {
-      "type": "null",
+      "type": ["null", "object"],
       "default": null
     },
     "defaultWhiteBackground": {
@@ -106,7 +103,7 @@
       "default": false
     },
     "captureSelector": {
-      "type": "boolean",
+      "type": ["boolean", "string"],
       "default": false
     }
   },
