@@ -1,6 +1,6 @@
 {
   "name": "webshot-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "test": "PORT=4556 mocha ./test/core.js ./test/options/*"
