@@ -7,6 +7,10 @@
 
 A simple server module that wraps [node-webshot](https://github.com/brenden/node-webshot)
 
+## Requirements
+
+Supports Node 6+ currently.
+
 ## Installation
 
 ```
