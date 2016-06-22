@@ -19,8 +19,17 @@ npm install webshot-server -g
 
 ## Usage
 
-```sh
+```
+npm install webshot-client
 webshot-server
+```
+
+```js
+var webshot = require('webshot-client')('http://localhost:8080/');
+webshot('google.com', 'output.png', function(err) {
+  // done
+});
+
 ```
 
 ## Rebuilding the Docker image
